@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>CALCULATOR</h1>
+        <form name="cal" class="cal-form" method="post" action="main.html">
+            <input type="text" name="answer" id="input-box"><br><br>
+            <input type="button" class="cal-button" value="C" onclick="cal.answer.value=''">
+            <input type="button" class="cal-button" value="<" onclick="cal.answer.value=form.answer.value.substring(0,form.answer.value.length*1-1)">
+            <input type="button" class="cal-button" id="cal-equal" value="=" onclick="cal.answer.value=eval(form.answer.value)"><br>
+            <input type="button" class="cal-button" value="7" onclick="cal.answer.value+='7'">
+            <input type="button" class="cal-button" value="8" onclick="cal.answer.value+='8'">
+            <input type="button" class="cal-button" value="9" onclick="cal.answer.value+='9'">
+            <input type="button" class="cal-button" value="/" onclick="cal.answer.value+='/'"><br>
+            <input type="button" class="cal-button" value="4" onclick="cal.answer.value+='4'">
+            <input type="button" class="cal-button" value="5" onclick="cal.answer.value+='5'">
+            <input type="button" class="cal-button" value="6" onclick="cal.answer.value+='6'">
+            <input type="button" class="cal-button" value="*" onclick="cal.answer.value+='*'"><br>
+            <input type="button" class="cal-button" value="1" onclick="cal.answer.value+='1'">
+            <input type="button" class="cal-button" value="2" onclick="cal.answer.value+='2'">
+            <input type="button" class="cal-button" value="3" onclick="cal.answer.value+='3'">
+            <input type="button" class="cal-button" value="-" onclick="cal.answer.value+='-'"><br>
+            <input type="button" class="cal-button" id="cal-zero" value="0" onclick="cal.answer.value+='0'">
+            <input type="button" class="cal-button" value="." onclick="cal.answer.value+='.'">
+            <input type="button" class="cal-button" value="+" onclick="cal.answer.value+='+'">
+        </form>
+    </center>
+</body>
+</html>

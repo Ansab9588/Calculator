@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blueviolet;
+    font-size: 50px;
+}
+
+.cal-form{
+    width: 500px;
+    padding-top: 10%;
+    padding-bottom: 90%;
+    background-color:lightgray;
+    height:10px;
+}
+
+.cal-button{
+    background-color: blueviolet;
+    height: 55px;
+    width: 55px;
+    padding: 10px;
+    border:none;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 2.5px;
+    font-size: 25px;
+}
+
+#input-box{
+    height: 40px;
+    width: 245px;
+    border:none;
+    border-radius: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    border-color: lightgray;
+}
+
+#cal-equal{
+    height: 55px;
+    width: 120px;
+    background-color: blueviolet;
+    padding: 10px;
+    border:none;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 2.5px;
+    font-size: 25px;
+}
+
+#cal-zero{
+    height: 55px;
+    width: 120px;
+    background-color: blueviolet;
+    padding: 10px;
+    border:none;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 2.5px;
+    font-size: 25px;
+}
